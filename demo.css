@@ -1,0 +1,23 @@
+#map {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 3px solid;
+}
+
+/*蛇身*/
+.snakbody {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: #000;
+}
+
+/*食物*/
+.food {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: blueviolet;
+}
